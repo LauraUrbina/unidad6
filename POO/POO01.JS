@@ -1,10 +1,10 @@
-/* esto es un objeto de Javascript
+/* esto es un tipo de dato 'objeto' de Javascript
 tiene funciones incluidas
 */
 var persona = {
     nombre: "Laura",
     edad: 24,
-    genero: true
+    genero: true,
     mostrar: function(){
         console.log(this.nombre, this.edad, this.genero)
     },
