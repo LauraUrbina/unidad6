@@ -28,6 +28,6 @@ function funcionif03(a){
 
 //funcionif01(15)
 //funcionif01(19)
-//funcionif02(15)
+funcionif02(20)
 //funcionif02(19)
 funcionif03(36)

@@ -103,3 +103,36 @@ function sumaPrimos(N){
 var num = 5
 console.log(EsPrimo (num) ? num + " es Primo" : num + " no es Primo" )
 
+/* realizar un script que escriba una piramide del 1 al 30 */
+function piramide01(N){
+    var cadena = []
+    for(var i = 1; i <= N; i++){
+        cadena.push(i)
+        //console.log(cadena)
+        var texto =""
+        for(var x in cadena){
+            texto += cadena [x] + ""
+        }
+        console.log(texto)
+    }
+}
+function piramide02(N){
+    var texto =""
+    for(var i = 1; i <= N; i++){
+        texto += i + ""
+        console.log(texto)
+    }
+}
+function piramide03(N){
+    for(var i = 1; i <= N; i++){
+        var texto = ""
+        for(var j = 1; j <= i; j++){
+        texto += i
+    }
+    //console.log(typeof(texto))
+    console.log(texto.substr(0,i))
+    }
+}
+piramide01(10)
+piramide02(7)
+piramide03(15)
