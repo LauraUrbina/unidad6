@@ -40,7 +40,7 @@ class Empresa{
 }
 
 console.log("----Persona----")
-/*creaxion de una instancia de la clase Persona*/
+/*creacion de una instancia de la clase Persona*/
 var Per01 = new Persona("Felipe", 47, false) 
 //leer los atributos de la instancia
 console.log("Datos de la persona:", Per01.getNombre(), Per01.getEdad(), Per01.getGenero())
