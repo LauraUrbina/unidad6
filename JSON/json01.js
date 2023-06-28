@@ -7,3 +7,4 @@ console.log(ObjJs.Edad)
 console.log(ObjJs.Genero)
 
 /*Ojo si la estructura deJSON tiene errores, el parseo no se realiza*/
+
